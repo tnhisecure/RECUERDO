@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="allpassword.js"> </script>
   <link rel="shortcut icon" href="brain.jpg" type="image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -206,6 +207,16 @@ body {
   left: 0%;
   }
 }
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
 </style>
 <title>RECUERDO</title>
 </head>
@@ -338,8 +349,16 @@ body {
         <p><a href="https://drive.google.com/drive/folders/1LI3BRJ5zauaWM6zDCYSCm7_H7Ci7CeOD?usp=sharing">Pratasha Bday Celebration 14-04-2021</a></p>
         <p><a href="https://drive.google.com/drive/folders/1PWndebv1LojG6jL6hdZaKVl-tY2F-x80?usp=sharing">MA R.I.P 19-04-2021</a></p>
         <p><a href="https://drive.google.com/drive/folders/1O42ojEpMEVjwRNq-R0R44-8WsuhdVzSt?usp=sharing">Soujonno Annoprason 13-05-2021</a></p>
-        
-      </div>
+        <P><a href="https://drive.google.com/drive/folders/14K_PhQZibEnKgYIb0nAbgxMl4vOlkaUN?usp=sharing">Arkodev Saha 5th Birthday 04-08-2021</a></p>
+        <P><a href="https://drive.google.com/drive/folders/1HPe0LRrXHvvsphnVIt31FjLquNLu2sbG?usp=sharing">Teachers Day 2021 05-09-2021</a></p>
+        <P><a href="https://drive.google.com/drive/folders/1ZaQr9eKrJXwMe6sQ3TPbu0hSfmwclCwE?usp=sharing">Birthday 2021 (Gopa & Mou) 08-09-2021</a></p>  
+        <P><a href="https://drive.google.com/drive/folders/14JPp8h8K1CiHKHgLznpCfZ8QyH6rPtVX?usp=sharing">Birthday 2021 (jayanta) 12-10-2021</a></p>  
+        <P><a href="https://drive.google.com/drive/folders/13OmCBvo-o90xZX0uMSOotv_9iYbLQ3os?usp=sharing">Birthday 2021 (Babu) 30-10-2021</a></p>
+        <P><a href="https://drive.google.com/drive/folders/1lHqFl1_GHShu7yCrOYnpcJGFeo-FjPiw?usp=sharing">Bhai Phota 06-11-2021</a></p> 
+        <P><a href="https://drive.google.com/drive/folders/1etdwyL_2ysyluCXLMpvPlsSaysv5iima?usp=sharing">Mama Bhagne Pahar 22-11-2021</a></p>  
+        <P><a href="https://drive.google.com/drive/folders/1ZaMqWj6yqXQ07JCgc26Pod0nHXNkyFyK?usp=sharing">Birthday 2021 (oli) 24-11-2021</a></p>    
+
+        </div>
     </div>
     <div class="container right">
       <div class="content">
@@ -495,35 +514,19 @@ body {
       </div>
     </div>
 
-  </div>
   
+  <br>
+  <br>
+  <hr>
+  <p style="font-size: 10px;" align="right"><span class="blinking">Version 1.0.2</span></p></div>
+ 
+  <center> <p style="font-size: 13px;">&copy;2021-22 All Rights Reserved by Recuerdo</p>
+  </center> 
+</div>
   
 </div>
-<script>
-    a=prompt("Enter Password");
-           if(a==7662)
-            alert("Go Ahead....");
-            
-        else if(a!=7662)
-            window.location="error.html";
-    </script>
+<script src="dropdown.js">
 
-<script>
-/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
-
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-  this.classList.toggle("active");
-  var dropdownContent = this.nextElementSibling;
-  if (dropdownContent.style.display === "block") {
-  dropdownContent.style.display = "none";
-  } else {
-  dropdownContent.style.display = "block";
-  }
-  });
-}
 </script>
 
 </body>
